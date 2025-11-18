@@ -268,10 +268,9 @@ export default function Header() {
                 lg:max-h-none lg:opacity-100 lg:flex lg:items-center lg:w-auto w-full`}
             >
               <div className="flex flex-col lg:flex-row lg:ml-auto gap-0 mt-4 lg:mt-0 w-full lg:w-auto">
-                <a href="#home" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-3 lg:text-center lg:border-[#041b39] transition-colors duration-300">Home</a>
-                <a href="#about" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-3 lg:text-center lg:border-[#041b39] transition-colors duration-300">About us</a>
-                <a href="#specialization" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-3 lg:text-center lg:border-[#041b39] transition-colors duration-300">Specialization</a>
-                <a href="#contact" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:text-center lg:border-[#041b39] transition-colors duration-300">Contact us</a>
+                  <a href="#home" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:text-center lg:border-[#041b39] transition-colors duration-300">Home</a>
+                  <span className="hidden lg:inline-block text-[#041b39] text-2xl" aria-hidden style={{margin: '0 8px'}}>|</span>
+                  <a href="https://www.iiitdwd.ac.in/" target="_blank" rel="noopener noreferrer" className="nav-link font-bold text-lg px-4 py-4 sm:py-0 border-b border-[#041b39] text-left lg:border-b-0 lg:text-center lg:border-[#041b39] transition-colors duration-300">Back</a>
               </div>
             </div>
           </nav>
@@ -282,18 +281,8 @@ export default function Header() {
             `}
           >
             <div className="flex flex-col w-full mt-4 px-4">
-              <button onClick={() => handleNavClick('home')} className="font-bold text-lg px-4 py-2 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-2 lg:text-center lg:border-[#041b39]">
-                Home
-              </button>
-              <button onClick={() => handleNavClick('about')} className="font-bold text-lg px-4 py-2 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-2 lg:text-center lg:border-[#041b39]">
-                About us
-              </button>
-              <button onClick={() => handleNavClick('specialization')} className="font-bold text-lg px-4 py-2 border-b border-[#041b39] text-left lg:border-b-0 lg:border-r-2 lg:text-center lg:border-[#041b39]">
-                Specialization
-              </button>
-              <button onClick={() => handleNavClick('contact')} className="font-bold text-lg px-4 py-2 text-left lg:border-b-0 lg:text-center">
-                Contact us
-              </button>
+              <button onClick={() => handleNavClick('home')} className="font-bold text-lg px-4 py-2 border-b border-[#041b39] text-left lg:border-b-0 lg:text-center lg:border-[#041b39]">Home</button>
+              <a href="https://www.iiitdwd.ac.in/" target="_blank" rel="noopener noreferrer" className="font-bold text-lg px-4 py-2 border-b border-[#041b39] text-left lg:border-b-0 lg:text-center lg:border-[#041b39]" style={{marginTop: '10px'}}>Back</a>
             </div>
           </div>
         </div>
