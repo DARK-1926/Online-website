@@ -16,7 +16,7 @@ const programmes = [
   {
     title: "Online M.Tech in DSAI",
     description: "Gain practical knowledge in Data Science and Artificial Intelligence.",
-    href: "https://online.iiitdwd.ac.in/dsai",
+    href: "https://onlinedsai.iiitdwd.ac.in",
     accent: "from-[#90ffef]/60 to-transparent",
     badge: "border-[#90ffef]/50 bg-[#90ffef]/10 text-[#90ffef]",
     button:
