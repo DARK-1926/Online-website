@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 const programmes = [
   {
     title: "Online M.Tech in CSE",
-    description: "Build advanced expertise in computer science and engineering.",
+    description: "Build advanced expertise in Computer Science and Engineering.",
     href: "https://onlinecse.iiitdwd.ac.in",
     accent: "from-[#1b91ff]/50 to-transparent",
-    badge: "border-white/30 bg-white/10 text-white",
+    badge: "border-[#90ffef]/50 bg-[#90ffef]/10 text-[#90ffef]",
     button: "bg-gradient-to-r from-[#00e0ff] to-[#00ffa3] text-[#041b39] hover:opacity-90 focus-visible:ring-[#00ffa3]/60",
     delay: 0,
   },
@@ -18,7 +18,7 @@ const programmes = [
     description: "Gain practical knowledge in Data Science and Artificial Intelligence.",
     href: "https://onlinedsai.iiitdwd.ac.in",
     accent: "from-[#90ffef]/60 to-transparent",
-    badge: "border-[#90ffef]/50 bg-[#90ffef]/10 text-[#90ffef]",
+    badge: "border-white/30 bg-white/10 text-white",
     button:
       "bg-white text-[#041b39] hover:bg-white/90 hover:text-[#031630] focus-visible:ring-white/60",
     delay: 0.15,
