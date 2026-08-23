@@ -86,7 +86,7 @@ function Card({ programme }) {
 
 export default function ProgrammesGrid() {
   return (
-    <section id="programmes" className="relative w-full min-h-screen flex items-center justify-center py-20 px-6">
+    <section id="programmes" className="relative w-full flex items-end justify-center min-h-[85vh] pt-48 pb-20 px-4 md:px-6">
       {/* Background Image Banner */}
       <div className="absolute inset-0 z-0">
         <Image 

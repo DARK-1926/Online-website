@@ -5,19 +5,16 @@ export default function OnlineMTechLandingPage() {
   return (
     <div className="font-sans bg-[#fafafa] text-slate-900 min-h-screen flex flex-col">
       <Header />
-      <div style={{marginTop: '70px'}}></div>
-      <main className="flex-grow flex items-center justify-center py-20">
+      <div style={{marginTop: '100px'}}></div>
+      <main className="flex-grow">
         <ProgrammesGrid />
       </main>
 
       {/* Footer */}
-      <footer id="contact" className="bg-[#041b39] py-12 text-center text-sm text-slate-300">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <p className="mb-4 text-base font-semibold text-white">Indian Institute of Information Technology, Dharwad</p>
-          <p className="text-slate-400">Ittegatti Road, Near Sattur Colony, Dharwad, Karnataka 580009</p>
-          <div className="mt-8 border-t border-slate-700/50 pt-8">
-            <p>© {new Date().getFullYear()} IIIT Dharwad. All Rights Reserved.</p>
-          </div>
+      <footer id="contact" className="bg-[#041b39] py-4 text-center text-xs text-slate-400">
+        <div className="mx-auto max-w-7xl px-4 flex flex-col md:flex-row justify-between items-center gap-2">
+          <p><span className="font-medium text-slate-300">Indian Institute of Information Technology, Dharwad</span> | Ittegatti Road, Karnataka 580009</p>
+          <p>© {new Date().getFullYear()} All Rights Reserved.</p>
         </div>
       </footer>
     </div>

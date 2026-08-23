@@ -245,12 +245,12 @@ export default function Header() {
 
       <div className="max-w-7xl m-auto">
         <div className="relative w-full">
-          <nav className="flex items-center justify-between flex-wrap px-4 py-3 mx-auto">
-            <a href="/" className="py-0">
+          <nav className="flex items-center justify-between px-4 py-4 mx-auto max-w-7xl">
+            <a href="/" className="max-w-[75%] lg:max-w-none">
               <Image
                 src={logo}
                 alt="IIIT Logo"
-                className="mx-8 lg:mx-0 h-12 w-auto lg:h-16"
+                className="h-auto w-full max-h-16 lg:h-20 lg:w-auto"
               />
             </a>
 
