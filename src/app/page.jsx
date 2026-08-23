@@ -1,17 +1,24 @@
-
 import Header from './components/home/header/header';
 import ProgrammesGrid from './components/home/ProgrammesGrid';
 
-// ProgrammesGrid now handles the programmes and animation
-
 export default function OnlineMTechLandingPage() {
   return (
-    <div className="font-roboto bg-[#010611] text-white min-h-screen">
+    <div className="font-sans bg-[#fafafa] text-slate-900 min-h-screen flex flex-col">
       <Header />
-      <div style={{marginTop: '110px'}}></div>
-      <ProgrammesGrid />
-      <footer className="border-t border-white/10 bg-[#01050d] py-10 text-center text-sm text-white/60">
-        © {new Date().getFullYear()} Indian Institute of Information Technology, Dharwad. All Rights Reserved.
+      <div style={{marginTop: '70px'}}></div>
+      <main className="flex-grow flex items-center justify-center py-20">
+        <ProgrammesGrid />
+      </main>
+
+      {/* Footer */}
+      <footer id="contact" className="bg-[#041b39] py-12 text-center text-sm text-slate-300">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <p className="mb-4 text-base font-semibold text-white">Indian Institute of Information Technology, Dharwad</p>
+          <p className="text-slate-400">Ittegatti Road, Near Sattur Colony, Dharwad, Karnataka 580009</p>
+          <div className="mt-8 border-t border-slate-700/50 pt-8">
+            <p>© {new Date().getFullYear()} IIIT Dharwad. All Rights Reserved.</p>
+          </div>
+        </div>
       </footer>
     </div>
   );

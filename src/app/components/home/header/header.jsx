@@ -149,7 +149,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from '../../../assets/home/header/iiit-Logos.svg';
+import logo from '../../../assets/3-lang-logo.jpeg';
 import sidebar from '../../../assets/home/header/bars.svg';
 
 export default function Header() {
@@ -250,7 +250,7 @@ export default function Header() {
               <Image
                 src={logo}
                 alt="IIIT Logo"
-                className="mx-8 lg:mx-0 w-[180px] lg:w-[65%]"
+                className="mx-8 lg:mx-0 h-12 w-auto lg:h-16"
               />
             </a>
 
