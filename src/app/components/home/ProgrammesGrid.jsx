@@ -15,8 +15,8 @@ const programmes = [
   {
     title: "Online M.Tech in Quantum",
     description: "Build advanced expertise in Quantum Technology and prepare for the future of computing.",
-    href: "#",
-    isActive: false,
+    href: "https://onlineqai.iiitdwd.ac.in",
+    isActive: true,
   }
 ];
 
@@ -92,8 +92,8 @@ export default function ProgrammesGrid() {
         <Image 
           src={bgImage} 
           alt="IIIT Dharwad Campus" 
-          layout="fill" 
-          objectFit="cover" 
+          fill
+          style={{ objectFit: 'cover', objectPosition: 'center top' }}
           className="opacity-100"
         />
         {/* Dark overlay to make cards and text visible and clean */}
