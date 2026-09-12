@@ -13,8 +13,8 @@ const programmes = [
     isActive: true,
   },
   {
-    title: "Online M.Tech in Quantum",
-    description: "Build advanced expertise in Quantum Technology and prepare for the future of computing.",
+    title: "Online M.Tech in Quantum AI and Computing",
+    description: "Build advanced expertise in Quantum AI and Computing and prepare for the future of computing.",
     href: "https://onlineqai.iiitdwd.ac.in",
     isActive: true,
   }
